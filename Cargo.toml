@@ -1,6 +1,6 @@
 [package]
 name = "cubase-project-plugins"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 description = "Displays plugins used in your Cubase projects along with the Cubase version the project was created with."
 repository = "https://github.com/fgimian/cubase-project-plugins"
