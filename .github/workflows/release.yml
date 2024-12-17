@@ -62,10 +62,10 @@ jobs:
             suffix: windows-x86_64-msvc
             os: windows-latest
           - target: aarch64-apple-darwin
-            suffix: macos-arm64-msvc
+            suffix: macos-arm64-darwin
             os: macos-latest
           - target: x86_64-apple-darwin
-            suffix: macos-x86_64-msvc
+            suffix: macos-x86_64-darwin
             os: macos-latest
     runs-on: ${{ matrix.os }}
     steps:
